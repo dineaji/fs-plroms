@@ -1,0 +1,21 @@
+{
+  "name": "technology-racing",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha **/*.test.js",
+    "test-watch": "nodemon --exec \"npm test\"",
+    "start": "node app.js"
+  },
+  "author": "Dinesh Kumar.s",
+  "license": "ISC",
+  "dependencies": {
+    "axios": "^0.16.2",
+    "express": "^4.15.3",
+    "hbs": "^4.0.1"
+  },
+  "devDependencies": {
+    "supertest": "^3.0.0"
+  }
+}

@@ -1,0 +1,24 @@
+{
+	"title" : "Header logo and menus datas",
+	"logo" : {
+		"name" : "PlromsPoint",
+		"image" : "../public/images/PP_logo_rotateView.png"
+	},
+	"menus" : [{
+		"name" : "Home",
+		"url" : "/",
+		"seo name" : "PP- Home Page",
+		"seo description" : "Test Description"
+	},{
+		"name" : "Detal",
+		"url" : "/detail",
+		"seo name" : "PP- Detail Page",
+		"seo description" : "Test Detail Description"
+	}],
+	"news" : {
+		"name" : "news title",
+		"description" : "news description",
+		"url" : "/news",
+		"isexternallink" : "true"
+	}
+}
